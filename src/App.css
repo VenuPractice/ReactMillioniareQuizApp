@@ -1,0 +1,81 @@
+.app {
+  height: 100vh;
+  display: flex;
+  background-color: #020230;
+  color: white;
+}
+.main {
+  width: 75%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
+    url("./components/asset/bg.jpg"), center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  height: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 5px lightgrey solid;
+  background-color: #020230;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  top: -9%;
+  left: -0.5%;
+
+  /*
+  bottom: 10px;
+  left: 80px; */
+}
+.pyramid {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PriceList {
+  list-style: none;
+  width: 100%;
+  padding: 20px;
+}
+.priceList_item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}
+.priceList_item.active {
+  background-color: teal;
+}
+.priceList_item_Number {
+  font-size: 18px;
+  font-weight: 100;
+  width: 30%;
+  /* text-align: center; */
+}
+.priceList_item_Price {
+  font-size: 20px;
+  font-weight: 300;
+}
+.earnText {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
